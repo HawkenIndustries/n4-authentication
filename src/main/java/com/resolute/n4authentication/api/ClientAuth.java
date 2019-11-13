@@ -236,7 +236,7 @@ public class ClientAuth {
             log("Failed Post in client authenticator...!");
             e.printStackTrace();
         }
-    }
+    } //todo - move this logic out of the client auth object, pass the servlet url and point changes as cmd args...11.13.2019
 
     private String sendScramMessage(String command, String message)
             throws Exception

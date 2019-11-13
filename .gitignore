@@ -10,3 +10,5 @@ devOps*
 .lock
 .bin
 cache*
+/src/main/resources/endpoint.conf
+/src/main/resources/n4params.conf
